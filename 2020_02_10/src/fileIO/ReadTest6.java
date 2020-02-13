@@ -35,7 +35,6 @@ public class ReadTest6 {
 							new OutputStreamWriter(new FileOutputStream(file), "UTF-8")	);
 					
 					String dataStr = null;
-					
 					while ((dataStr = reader.readLine()) != null) {
 						System.out.print(dataStr);
 						writer.write(dataStr+"\n업로드 폴더에만 들어갈 내용이지롱\t");
