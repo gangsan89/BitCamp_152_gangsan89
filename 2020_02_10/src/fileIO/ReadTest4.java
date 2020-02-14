@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 
 public class ReadTest4 {
 	public static void main(String[] args) throws IOException {
-		// D:\java_data\1234.txt ÇÑ±Û±úÁü ¼öÁ¤
+		// D:\java_data\1234.txt ÀÐ±â / ÇÑ±Û±úÁü ¼öÁ¤
 		String pathname = "D:/java_data/1234.txt";
 		File txtFile = new File(pathname);
 
@@ -24,10 +24,8 @@ public class ReadTest4 {
 				BufferedReader reader = null;
 				try {
 					// fileReader = new FileReader(txtFile);
-
 					reader = new BufferedReader(
 							new InputStreamReader(new FileInputStream(txtFile), "UTF-8"));
-
 					String dataStr = null;
 					while ((dataStr = reader.readLine()) != null) {
 						System.out.print(dataStr);
