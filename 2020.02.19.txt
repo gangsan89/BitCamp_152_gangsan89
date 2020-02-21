@@ -1,0 +1,23 @@
+어제 내용 정리==========contextPath = path
+
+web.xml
+	DD(배포관리자)
+	웹서버 톰캣
+	맵핑을 해주지 않으면 실질적인 주소를 다 적어줘야한다 번거롭다
+	
+
+/ ==> 어플리케이션의 처음부분 
+	파일에선 webcontent
+	와르에선 프로젝트 처음부분
+
+
+POJO
+public class A~~{
+	property = 멤버변수
+	
+
+
+
+Bean class = 고객의 정보를 하나로 모아서 보내주는거
+
+MVC패턴

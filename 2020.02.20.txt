@@ -1,0 +1,44 @@
+AServlet : doPost() : a.do ==> post방식은 직접적인 접근이 불가능하다
+BServlet : doGet() : b.do
+
+<a href= "a.do"> 불가능
+localhost:9080 불가능
+location.href=" " 이것도 링크다
+
+a.do 라는건 http~~~ 를 생략한거다 내 기준에서 가까운것부터 찾으니까
+이걸 상대경로라고 한다
+
+
+<form cneth"post"
+<button ~~ > 로그인 </ >
+
+버튼을 눌렀을때 a.do를 호출하고 싶다
+어떻게 해야되나?
+
+forward.~~디스패쳐 
+서버가 가지고 있는 정보를 클라이언트에 보내주는것
+
+respons.redirect
+서버가 가지고 있는 정보를 날리고 깨끗하게 클라이언트에게 보내주는것
+
+xml ==> jason 으로 바뀜
+
+. 왼쪽에 올수있는거
+~~Scope
+내장객체
+beans
+Map
+List는 바로 접근이 안되고 접근할려면 List[0] 이런식으로 해야함
+
+
+
+
+
+Test ===> jstlTest2.jsp
+	멤버의 목록중 cartCount 의 값이 10 이상이면 골드
+	5~10이면 실버, 닉네임, cartCount 수 출력
+	1~5 동
+	0 관심대상
+
+	이 조건들을 
+
